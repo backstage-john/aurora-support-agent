@@ -1,0 +1,21 @@
+{
+  "name": "aurora-support-agent",
+  "description": "Answers customer questions about shipments and can escalate routing questions to the routing agent.",
+  "url": "https://support-agent.mock.aurora-logistics.example/a2a",
+  "version": "0.1.0",
+  "capabilities": {
+    "streaming": true
+  },
+  "skills": [
+    {
+      "id": "answer_shipment_question",
+      "name": "Answer shipment question",
+      "description": "Answers a customer's question about the status of their shipment."
+    },
+    {
+      "id": "escalate_to_routing_agent",
+      "name": "Escalate to routing agent",
+      "description": "Delegates route/ETA questions to aurora-routing-agent via A2A."
+    }
+  ]
+}
