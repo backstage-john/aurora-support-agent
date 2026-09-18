@@ -26,6 +26,8 @@ kind: API
 metadata:
   name: support-agent-a2a
   description: Agent2Agent (A2A) surface for customer support conversations.
+  annotations:
+    backstage.io/techdocs-ref: dir:.
 spec:
   type: a2a
   lifecycle: production
